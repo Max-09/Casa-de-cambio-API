@@ -5,20 +5,28 @@
     font-family: 'Poppins', sans-serif;
 }
 .color{
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color:#E5E9EA;
 }
 
 .full-width {
     min-height: 100vh;
 }
-.box{
-    min-width: 100px;
+
+input{
+    background-color: #E5E9EA;
+	border: none;
 }
 
 form {
     background-color: white;
     box-shadow: 5px 5px 5px rgba(0,0,0,.2);
-    border: 1.5px solid #FF6732;
+    width: 430px;
+	max-width: 100%;
+	min-height: 370px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
 }
 
 @media (max-width: 400px) {
@@ -28,12 +36,34 @@ form {
 }
 
 input, select{
-    border-radius: 3px;
-    border: 1.5px solid #FFCA00;
+    border: 1.5px solid black;
 }
 
 img{
-    width:100px;
-  
+    width:200px;
+}
+
+h2{
+    color: white;
+}
+
+#cuadro{
+    background-color: #272262;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    width: 350px;
+    height: 530px;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px 40px;
+	position: relative;
+	text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+	line-height: 20px;
+	margin: 10px 0 30px;
 }
 
