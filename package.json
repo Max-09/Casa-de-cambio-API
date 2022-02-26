@@ -4,6 +4,12 @@
     "jquery": "^3.6.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.13"
-  }
+    "@types/jquery": "^3.5.13",
+    "cypress": "^9.5.0"
+  },
+  "scripts": {
+      "test": "cypress open"
+    }
 }
+
+

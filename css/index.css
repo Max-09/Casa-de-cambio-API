@@ -22,7 +22,7 @@ form {
     box-shadow: 5px 5px 5px rgba(0,0,0,.2);
     width: 430px;
 	max-width: 100%;
-	min-height: 370px;
+	min-height: 390px;
     display: flex;
 	align-items: center;
 	justify-content: center;
@@ -45,6 +45,7 @@ img{
 
 h2{
     color: white;
+
 }
 
 #cuadro{
